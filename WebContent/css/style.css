@@ -1,0 +1,32 @@
+body {
+	position: relative;
+	background-color: #abcdef;
+	font-family: "Impact";
+}
+h1 {
+	color: #0048D8;
+}
+.button {
+	display: inline-block;
+	background-color: #0048D8;
+	height: 62px;
+	vertical-align: middle;
+	line-height: 62px;
+	padding: 0 25px;
+	font-size: 30px;
+	border-bottom: 3px white solid;
+	box-shadow: 1px 1px 0 #111,
+      -1px -1px 0 #111,
+      1px -1px 0 #111,
+      -1px 1px 0 #111;
+    color: #fff;
+}
+.button:hover {
+	background-color: blue;
+}
+.button:active {
+	background-color: #00246B;
+}
+.hidden {
+	display: none;
+}
